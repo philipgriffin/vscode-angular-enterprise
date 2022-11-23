@@ -14,4 +14,4 @@ Available via [Visual Studio Marketplace](https://marketplace.visualstudio.com/i
 
 ---
 
-<img src='./logo-banner' width="600">
+<img src='./logo-banner.png' width="350">
