@@ -1,6 +1,7 @@
 {
   "name": "angular-enterprise",
   "displayName": "Angular Enterprise",
+  "publisher": "philipgriffin",
   "icon": "icon.png",
   "description": "A curation of the best extensions to assist in building enterprise-grade Angular applications.",
   "repository": {
@@ -12,7 +13,7 @@
     "vscode": "^1.73.0"
   },
   "scripts": {
-    "build": "npx vsce package",
+    "build": "npx vsce package --out \"build/\"",
     "publish": "npx vsce publish"
   },
   "categories": [
