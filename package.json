@@ -1,0 +1,34 @@
+{
+  "name": "angular-enterprise",
+  "displayName": "Angular Enterprise",
+  "icon": "icon.png",
+  "description": "A curation of the best extensions to assist in building enterprise-grade Angular applications.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipgriffin/vscode-angular-enterprise.git"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "scripts": {
+    "build": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "Angular",
+    "Nx",
+    "TypeScript",
+    "HTML"
+  ],
+  "license": "LicenseRef-LICENSE.md",
+  "extensionPack": [
+    "Angular.ng-template",
+    "nrwl.angular-console",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
