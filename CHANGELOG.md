@@ -1,5 +1,17 @@
 # Change Log
 
+## 15.0.0 (11-DEC-2022)
+
+**Added:**
+
+- `settings.json` are now automatically configured upon load.
+- Code formatting on save.
+- Automatic import organisation on save.
+- Automatic ESLint fix on save.
+- Default formatter set to `esbenp.prettier-vscode`.
+- Global version state clear command.
+- Version number updated to reflect Angular version scheme.
+
 ## 1.1.0 (23-NOV-2022)
 
 **Added:**

@@ -2,18 +2,20 @@ const vscode = require("vscode");
 const settings = require("./settings.json");
 
 async function activate(context) {
-  // TODO: Update changelog, push to git, deploy
-  // TODO: Test version bumping - remove icons for v15 and add to 15.1
-  // TODO: Remove unused versions and start 15 base.
-  // TODO: Turn clear version state into an executable command
-  // TODO: Find out why the showError command does nothing.
-  // clearVersionState(context);
   const newVersion = isNewVersion(context);
 
   if (newVersion) {
     updateVersionState(context, newVersion);
     await updateSettings();
   }
+
+  const disposable = vscode.commands.registerCommand(
+    "angular-enterprise.clearVersionState",
+    async () => {
+      clearVersionState(context);
+    }
+  );
+  context.subscriptions.push(disposable);
 }
 
 function deactivate() {}
@@ -49,23 +51,37 @@ function updateVersionState(context, version) {
  * @param {vscode.ExtensionContext} context The extension context.
  */
 async function clearVersionState(context) {
-  context.globalState.update(context.extension.id, undefined);
-  await vscode.window.showInformationMessage(
-    "🗑️ Angular Enterprise cleared its version state."
+  context.globalState.update(context.extension.id, undefined).then(
+    async () => {
+      await vscode.window.showInformationMessage(
+        "✅ Angular Enterprise cleared its version state."
+      );
+    },
+    async () => {
+      await vscode.window.showInformationMessage(
+        "❌ Angular Enterprise failed to clear its version state. See the Debug Console for more information."
+      );
+    }
   );
 }
 
 /**
- * Updates the global settings
+ * Updates the global settings. Will append to Object configs and overwrite specific id configuration.
  */
 async function updateSettings() {
   const ids = Object.keys(settings);
   let failed = [];
 
-  ids.forEach(async (id, index) => {
+  ids.forEach(async (id) => {
+    let appendTo = null;
+
+    if (isObject(settings[id])) {
+      appendTo = { ...vscode.workspace.getConfiguration(id), ...settings[id] };
+    }
+
     await vscode.workspace
       .getConfiguration()
-      .update(id, settings[id], vscode.ConfigurationTarget.Global)
+      .update(id, appendTo ?? settings[id], vscode.ConfigurationTarget.Global)
       .then(
         () => {},
         () => {
@@ -80,12 +96,14 @@ async function updateSettings() {
     );
   } else {
     await vscode.window.showInformationMessage(
-      "🚀 Angular Enterprise successfully configured global settings."
-    );
-
-    // TODO: Find out why this isn't working?
-    await vscode.window.showErrorMessage(
-      `❌ Angular Enterprise failed to configure ${failed.length} setting(s). See the Debug Console for more information.`
+      "✅ Angular Enterprise successfully updated global settings. 🚀"
     );
   }
 }
+
+/**
+ *
+ * @param { any } obj
+ * @returns { boolean } Returns true if input is an Object. Otherwise, returns false.
+ */
+const isObject = (obj) => (obj ?? false)?.constructor?.name === "Object";

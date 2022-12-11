@@ -6,7 +6,20 @@
 
 ## Description
 
-A curation of the best extensions for Visual Studio Code to assist in building enterprise-grade Angular applications.
+Angular Enterprise is a curation of Visual Studio Code extensions to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions and the global workspace will then be preconfigured for optimal performance.
+
+## Actions & Commands
+
+### Extension Installation
+
+Upon installation all new extensions will be installed. Once complete configuration is applied to the workspace. These steps are repeated for each new version.
+
+### Clear Version State
+
+> **Warning**
+> Once executed the next reload will reapply Angular Enterprise's `settings.json`.
+
+Clears the global version state. This can be useful if you would like to force a rerun of the Extension Installation phase. Simply execute this command then reload your workspace.
 
 ## Install
 
