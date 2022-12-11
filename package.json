@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/philipgriffin/vscode-angular-enterprise.git"
   },
-  "version": "1.1.0",
+  "version": "15.0.0",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -32,5 +32,18 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "ms-azuretools.vscode-docker"
-  ]
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:angular-enterprise.clearVersionState"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "angular-enterprise.clearVersionState",
+        "title": "Angular Enterprise: Clear Version State"
+      }
+    ]
+  }
 }
