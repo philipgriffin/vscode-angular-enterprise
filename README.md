@@ -35,6 +35,7 @@ Clears the global version state. This can be useful if you would like to force a
 | [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)               |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)            |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) |
+| [JEST Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)      |
 
 ---
 
