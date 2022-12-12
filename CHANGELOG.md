@@ -1,9 +1,16 @@
 # Change Log
 
+## 15.2.0 (12-DEC-2022)
+
+**Added:**
+
+- `firsttris.vscode-jest-runner`
+
 ## 15.1.0 (12-DEC-2022)
 
 **Added:**
 
+- `firsttris.vscode-jest-runner`
 - `PKief.material-icon-theme`.
 - Default global configuration for icons.
 - Lowered required VSCode version.
