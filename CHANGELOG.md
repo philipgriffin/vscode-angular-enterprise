@@ -10,7 +10,6 @@
 
 **Added:**
 
-- `firsttris.vscode-jest-runner`
 - `PKief.material-icon-theme`.
 - Default global configuration for icons.
 - Lowered required VSCode version.
