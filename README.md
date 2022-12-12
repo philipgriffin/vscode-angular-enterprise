@@ -8,6 +8,10 @@
 
 Angular Enterprise is a curation of Visual Studio Code extensions to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions and the global workspace will then be preconfigured for optimal performance.
 
+## Install
+
+Available via [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=philipgriffin.angular-enterprise&ssr=false#overview).
+
 ## Actions & Commands
 
 ### Extension Installation
@@ -21,9 +25,16 @@ Upon installation all new extensions will be installed. Once complete configurat
 
 Clears the global version state. This can be useful if you would like to force a rerun of the Extension Installation phase. Simply execute this command then reload your workspace.
 
-## Install
+## Extension List
 
-Available via [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=philipgriffin.angular-enterprise&ssr=false#overview).
+| Extension Name                                                                                       |
+| ---------------------------------------------------------------------------------------------------- |
+| [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)  |
+| [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)               |
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                 |
+| [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)               |
+| [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)            |
+| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) |
 
 ---
 

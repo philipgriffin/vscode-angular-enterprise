@@ -1,5 +1,15 @@
 # Change Log
 
+## 15.1.0 (12-DEC-2022)
+
+**Added:**
+
+- `PKief.material-icon-theme`.
+- Default global configuration for icons.
+- Lowered required VSCode version.
+- Configured default editor tab size.
+- Updated `readme.md` to include extension list.
+
 ## 15.0.0 (11-DEC-2022)
 
 **Added:**

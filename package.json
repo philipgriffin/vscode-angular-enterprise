@@ -3,14 +3,14 @@
   "displayName": "Angular Enterprise",
   "publisher": "philipgriffin",
   "icon": "icon.png",
-  "description": "A curation of the best extensions to assist in building enterprise-grade Angular applications.",
+  "description": "A curation of the best extensions to assist in developing enterprise-grade Angular applications.",
   "repository": {
     "type": "git",
     "url": "https://github.com/philipgriffin/vscode-angular-enterprise.git"
   },
-  "version": "15.0.0",
+  "version": "15.1.0",
   "engines": {
-    "vscode": "^1.73.0"
+    "vscode": "^1.69.1"
   },
   "scripts": {
     "build": "npx vsce package --out \"build/\"",
@@ -31,7 +31,8 @@
     "nrwl.angular-console",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "ms-azuretools.vscode-docker"
+    "ms-azuretools.vscode-docker",
+    "PKief.material-icon-theme"
   ],
   "main": "./extension.js",
   "activationEvents": [
