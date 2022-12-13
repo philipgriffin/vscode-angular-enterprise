@@ -38,6 +38,7 @@ Clears the global version state. This can be useful if you would like to force a
 | [JEST Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)       |
 | [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)                       |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) |
+| [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                       |
 
 ---
 

@@ -4,6 +4,12 @@
 
 **Added:**
 
+- `unifiedjs.vscode-mdx`
+
+## 15.3.0 (13-DEC-2022)
+
+**Added:**
+
 - `yzhang.markdown-all-in-one`
 - `adpyke.codesnap`
 
