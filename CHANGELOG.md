@@ -1,5 +1,12 @@
 # Change Log
 
+## 15.3.0 (13-DEC-2022)
+
+**Added:**
+
+- `yzhang.markdown-all-in-one`
+- `adpyke.codesnap`
+
 ## 15.2.0 (12-DEC-2022)
 
 **Added:**
