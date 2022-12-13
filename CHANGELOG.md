@@ -1,13 +1,13 @@
 # Change Log
 
-## 15.4.0 (13-DEC-2022)
+## 15.5.0 (13-DEC-2022)
 
 **Added:**
 
 - `zhuangtongfa.Material-theme`
 - Updated cursor style.
 
-## 15.3.0 (13-DEC-2022)
+## 15.4.0 (13-DEC-2022)
 
 **Added:**
 
