@@ -39,6 +39,7 @@ Clears the global version state. This can be useful if you would like to force a
 | [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)                       |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) |
 | [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                       |
+| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)                       |
 
 ---
 
