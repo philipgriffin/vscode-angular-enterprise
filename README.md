@@ -6,7 +6,7 @@
 
 ## Description
 
-Angular Enterprise is a curation of Visual Studio Code extensions to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions, the global workspace and key bindings will then be preconfigured for optimal performance.
+Angular Enterprise is a curation of Visual Studio Code extensions, settings and key bindings to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions, the global workspace and key bindings will then be preconfigured for optimal performance.
 
 ## Install
 
