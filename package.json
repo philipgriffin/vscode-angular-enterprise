@@ -3,12 +3,12 @@
   "displayName": "Angular Enterprise",
   "publisher": "philipgriffin",
   "icon": "icon.png",
-  "description": "A curation of the best extensions to assist in developing enterprise-grade Angular applications.",
+  "description": "A curation of the best extensions, settings and key bindings to assist in developing enterprise-grade Angular applications.",
   "repository": {
     "type": "git",
     "url": "https://github.com/philipgriffin/vscode-angular-enterprise.git"
   },
-  "version": "15.5.0",
+  "version": "15.6.0",
   "engines": {
     "vscode": "^1.69.1"
   },
@@ -49,6 +49,13 @@
       {
         "command": "angular-enterprise.clearVersionState",
         "title": "Angular Enterprise: Clear Version State"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "workbench.action.files.saveAll",
+        "key": "ctrl+shift+s",
+        "mac": "cmd+shift+s"
       }
     ]
   }

@@ -6,7 +6,7 @@
 
 ## Description
 
-Angular Enterprise is a curation of Visual Studio Code extensions to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions and the global workspace will then be preconfigured for optimal performance.
+Angular Enterprise is a curation of Visual Studio Code extensions to assist in developing enterprise-grade Angular applications. Once installed, Angular Enterprise will preload your IDE with the below extensions. All extensions, the global workspace and key bindings will then be preconfigured for optimal performance.
 
 ## Install
 
@@ -16,7 +16,7 @@ Available via [Visual Studio Marketplace](https://marketplace.visualstudio.com/i
 
 ### Extension Installation
 
-Upon installation all new extensions will be installed. Once complete configuration is applied to the workspace. These steps are repeated for each new version.
+Upon installation all new extensions will be installed. Once complete configuration is applied to the workspace and key bindings are updated. This step is repeated for each version change.
 
 ### Clear Version State
 
@@ -24,6 +24,36 @@ Upon installation all new extensions will be installed. Once complete configurat
 > Once executed the next reload will reapply Angular Enterprise's `settings.json`.
 
 Clears the global version state. This can be useful if you would like to force a rerun of the Extension Installation phase. Simply execute this command then reload your workspace.
+
+## Configuration
+
+> **Note**
+> You do not need to setup this configuration. Angular Enterprise will automatically apply upon installation.
+
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.cursorBlinking": "phase"
+}
+```
+
+## Key Bindings
+
+> **Note**
+> You do not need to setup these key bindings. Angular Enterprise will automatically apply upon installation.
+
+| Command  | OS      | Default Binding                             | Angular Enterprise Binding                        |
+| -------- | ------- | ------------------------------------------- | ------------------------------------------------- |
+| Save All | Windows | <kbd>Ctrl</kbd> + <kbd>K</kbd> <kbd>S</kbd> | <kbd>Ctrl</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> |
+| Save All | Mac     | <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd>  | <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd>    |
 
 ## Extension List
 
@@ -39,7 +69,7 @@ Clears the global version state. This can be useful if you would like to force a
 | [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)                       |
 | [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) |
 | [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                       |
-| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)                       |
+| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)       |
 
 ---
 

@@ -1,5 +1,11 @@
 # Change Log
 
+## 15.6.0 (15-DEC-2022)
+
+**Added:**
+
+- Updated Save All default key binding.
+
 ## 15.5.0 (13-DEC-2022)
 
 **Added:**
