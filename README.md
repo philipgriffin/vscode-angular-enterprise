@@ -39,6 +39,8 @@ Clears the global version state. This can be useful if you would like to force a
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.iconTheme": "material-icon-theme",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "javascript.preferences.importModuleSpecifier": "project-relative",
   "editor.tabSize": 2,
   "workbench.colorTheme": "One Dark Pro Darker",
   "editor.cursorBlinking": "phase"

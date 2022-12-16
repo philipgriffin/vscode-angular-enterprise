@@ -1,5 +1,11 @@
 # Change Log
 
+## 15.6.1 (15-DEC-2022)
+
+**Added:**
+
+- Configured import module specifier.
+
 ## 15.6.0 (15-DEC-2022)
 
 **Added:**
