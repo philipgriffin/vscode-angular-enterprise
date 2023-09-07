@@ -1,6 +1,6 @@
 # Change Log
 
-## 16.0.1 (07-SEP-2023)
+## 16.1.0 (07-SEP-2023)
 
 **Removed:**
 
@@ -9,8 +9,6 @@
 **Added:**
 
 - bierner.github-markdown-preview
-
-- .
 
 ## 16.0.0 (07-SEP-2023)
 
