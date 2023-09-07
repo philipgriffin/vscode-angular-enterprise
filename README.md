@@ -59,19 +59,20 @@ Clears the global version state. This can be useful if you would like to force a
 
 ## Extension List
 
-| Extension Name                                                                                        |
-| ----------------------------------------------------------------------------------------------------- |
-| [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)   |
-| [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)                |
-| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                  |
-| [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)                |
-| [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)             |
-| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)  |
-| [JEST Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)       |
-| [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)                       |
-| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) |
-| [MDX](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)                       |
-| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)       |
+| Extension Name                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------- |
+| [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)            |
+| [Nx Console](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console)                         |
+| [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                           |
+| [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)                         |
+| [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)                      |
+| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)           |
+| [JEST Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)                |
+| [CodeSnap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)                                |
+| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)          |
+| [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)                |
+| [Playwright](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)                     |
+| [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) |
 
 ---
 

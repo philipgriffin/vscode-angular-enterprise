@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/philipgriffin/vscode-angular-enterprise.git"
   },
-  "version": "15.6.1",
+  "version": "16.1.0",
   "engines": {
     "vscode": "^1.69.1"
   },
@@ -36,8 +36,8 @@
     "firsttris.vscode-jest-runner",
     "yzhang.markdown-all-in-one",
     "adpyke.codesnap",
-    "unifiedjs.vscode-mdx",
-    "zhuangtongfa.Material-theme"
+    "zhuangtongfa.Material-theme",
+    "ms-playwright.playwright"
   ],
   "main": "./extension.js",
   "activationEvents": [

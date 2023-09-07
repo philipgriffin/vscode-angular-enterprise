@@ -1,5 +1,23 @@
 # Change Log
 
+## 16.0.1 (07-SEP-2023)
+
+**Removed:**
+
+- unifiedjs.vscode-mdx.
+
+**Added:**
+
+- bierner.github-markdown-preview
+
+- .
+
+## 16.0.0 (07-SEP-2023)
+
+**Added:**
+
+- ms-playwright.playwright.
+
 ## 15.6.1 (16-DEC-2022)
 
 **Added:**
